@@ -1,3 +1,6 @@
 {
-    "item.kingsblade.ruby": "Ruby"
+    "item.kingsblade.ruby": "Power Crystal",
+    "item.kingsblade.earthcry": "Earth Crystal",
+    "item.kingsblade.watercry": "Water Crystal",
+    "item.kingsblade.firecry": "Fire Crystal"
 }

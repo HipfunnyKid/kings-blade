@@ -12,9 +12,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-
+    public static final Item FIRECRY = registerItem("firecry", new Item(new FabricItemSettings()));
+    public static final Item EARTHCRY = registerItem("earthcry", new Item(new FabricItemSettings()));
+    public static final Item WATERCRY = registerItem("watercry", new Item(new FabricItemSettings()));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
+        entries.add(FIRECRY);
+        entries.add(EARTHCRY);
+        entries.add(WATERCRY);
     }
 
     private static Item registerItem(String name, Item item) {
