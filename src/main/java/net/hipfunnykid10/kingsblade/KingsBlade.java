@@ -2,6 +2,7 @@ package net.hipfunnykid10.kingsblade;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.hipfunnykid10.kingsblade.block.ModBlocks;
 import net.hipfunnykid10.kingsblade.item.ModItemGroups;
 import net.hipfunnykid10.kingsblade.item.ModItems;
 import org.slf4j.Logger;
@@ -15,6 +16,6 @@ public class KingsBlade implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-		LOGGER.info("Hello Fabric world!");
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -2,6 +2,7 @@ package net.hipfunnykid10.kingsblade.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.hipfunnykid10.kingsblade.KingsBlade;
+import net.hipfunnykid10.kingsblade.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -18,6 +19,7 @@ public class ModItemGroups {
         entries.add(EARTHCRY);
         entries.add(WATERCRY);
         entries.add(GUILDNETHERING);
+        entries.add(ModBlocks.CHARRED_BRICKS);
     }).build());
     public static void registerItemGroups() {
         KingsBlade.LOGGER.info("Registering Item Groups for " +KingsBlade.MOD_ID);
