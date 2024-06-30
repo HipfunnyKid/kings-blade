@@ -2,5 +2,8 @@
     "item.kingsblade.ruby": "Power Crystal",
     "item.kingsblade.earthcry": "Earth Crystal",
     "item.kingsblade.watercry": "Water Crystal",
-    "item.kingsblade.firecry": "Fire Crystal"
+    "item.kingsblade.firecry": "Fire Crystal",
+    "item.kingsblade.guildednetheriteingot": "Guilded Netherite Ingot",
+
+    "itemgroup.blade": "The King's Blades"
 }

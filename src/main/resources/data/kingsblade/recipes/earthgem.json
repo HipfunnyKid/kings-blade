@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DWD",
+    "WRW",
+    "DWD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "W": {
+      "tag": "minecraft:logs"
+    },
+    "R": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "kingsblade:earthcry",
+    "count": 1
+  }
+}
