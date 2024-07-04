@@ -10,7 +10,7 @@
       "item": "minecraft:dragon_breath"
     },
     "W": {
-      "tag": "minecraft:diamond"
+      "item": "minecraft:diamond"
     },
     "D": {
       "item": "minecraft:dragon_egg"
