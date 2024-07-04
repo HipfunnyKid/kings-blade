@@ -18,8 +18,13 @@ public class ModItemGroups {
         entries.add(FIRECRY);
         entries.add(EARTHCRY);
         entries.add(WATERCRY);
+        entries.add(AIRCRY);
         entries.add(GUILDNETHERING);
+
+
         entries.add(ModBlocks.CHARRED_BRICKS);
+        entries.add(ModBlocks.CRACKED_CHARRED_BRICKS);
+        entries.add(ModBlocks.MOSSY_CHARRED_BRICKS);
     }).build());
     public static void registerItemGroups() {
         KingsBlade.LOGGER.info("Registering Item Groups for " +KingsBlade.MOD_ID);

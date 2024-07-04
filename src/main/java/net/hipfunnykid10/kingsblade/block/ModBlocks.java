@@ -15,6 +15,10 @@ public class ModBlocks {
 
     public static final Block CHARRED_BRICKS = registerBlock("charred_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
+    public static final Block CRACKED_CHARRED_BRICKS = registerBlock("cracked_charred_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
+    public static final Block MOSSY_CHARRED_BRICKS = registerBlock("mossy_charred_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

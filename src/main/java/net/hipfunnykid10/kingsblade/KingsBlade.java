@@ -17,5 +17,6 @@ public class KingsBlade implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItems.registerModRecipes();
 	}
 }

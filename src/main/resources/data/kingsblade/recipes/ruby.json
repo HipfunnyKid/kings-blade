@@ -7,17 +7,17 @@
   ],
   "key": {
     "E": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:dragon_breath"
     },
     "W": {
-      "tag": "minecraft:logs"
+      "tag": "minecraft:diamond"
     },
     "D": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:dragon_egg"
     }
   },
   "result": {
-    "item": "kingsblade:earthcry",
+    "item": "kingsblade:ruby",
     "count": 1
   }
 }

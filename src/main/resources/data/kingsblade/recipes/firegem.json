@@ -7,17 +7,17 @@
   ],
   "key": {
     "E": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:fire_charge"
     },
     "W": {
-      "tag": "minecraft:logs"
+      "tag": "minecraft:blaze_rod"
     },
     "D": {
       "item": "minecraft:diamond"
     }
   },
   "result": {
-    "item": "kingsblade:earthcry",
+    "item": "kingsblade:firecry",
     "count": 1
   }
 }

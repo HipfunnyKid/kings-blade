@@ -7,17 +7,17 @@
   ],
   "key": {
     "E": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:diamond"
     },
     "W": {
-      "tag": "minecraft:logs"
+      "tag": "minecraft:feather"
     },
     "D": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:elytra"
     }
   },
   "result": {
-    "item": "kingsblade:earthcry",
+    "item": "kingsblade:aircry",
     "count": 1
   }
 }

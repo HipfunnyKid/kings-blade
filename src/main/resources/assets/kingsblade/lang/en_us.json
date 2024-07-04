@@ -3,9 +3,12 @@
     "item.kingsblade.earthcry": "Earth Crystal",
     "item.kingsblade.watercry": "Water Crystal",
     "item.kingsblade.firecry": "Fire Crystal",
+    "item.kingsblade.aircry": "Air Crystal",
     "item.kingsblade.guildednetheriteingot": "Guilded Netherite Ingot",
 
     "block.kingsblade.charred_bricks": "Charred Bricks",
+    "block.kingsblade.cracked_charred_bricks": "Cracked Charred Bricks",
+    "block.kingsblade.mossy_charred_bricks": "Mossy Charred Bricks",
 
     "itemgroup.blade": "The King's Blades"
 }

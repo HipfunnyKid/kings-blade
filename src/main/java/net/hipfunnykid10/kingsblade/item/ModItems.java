@@ -15,7 +15,9 @@ public class ModItems {
     public static final Item FIRECRY = registerItem("firecry", new Item(new FabricItemSettings()));
     public static final Item EARTHCRY = registerItem("earthcry", new Item(new FabricItemSettings()));
     public static final Item WATERCRY = registerItem("watercry", new Item(new FabricItemSettings()));
+    public static final Item AIRCRY = registerItem("aircry", new Item(new FabricItemSettings()));
     public static final Item GUILDNETHERING = registerItem("guildednetheriteingot", new Item(new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 
     }
@@ -24,9 +26,12 @@ public class ModItems {
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(KingsBlade.MOD_ID, name), item);
     }
+
     public static void registerModItems() {
         KingsBlade.LOGGER.info("Registering Mod Items for " + KingsBlade.MOD_ID);
+    }
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+    public static void registerModRecipes() {
+        KingsBlade.LOGGER.info("Registering Mod Recipes for " + KingsBlade.MOD_ID);
     }
 }

@@ -7,17 +7,17 @@
   ],
   "key": {
     "E": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:heart_of_the_sea"
     },
     "W": {
-      "tag": "minecraft:logs"
+      "tag": "minecraft:kelp"
     },
     "D": {
       "item": "minecraft:diamond"
     }
   },
   "result": {
-    "item": "kingsblade:earthcry",
+    "item": "kingsblade:watercry",
     "count": 1
   }
 }
