@@ -10,5 +10,6 @@
     "block.kingsblade.cracked_charred_bricks": "Cracked Charred Bricks",
     "block.kingsblade.mossy_charred_bricks": "Mossy Charred Bricks",
 
-    "itemgroup.blade": "The King's Blades"
+    "itemgroup.blade": "The King's Blades",
+    "entity.kingsblade.first_of_the_tundra": "The first of the Tundra"
 }

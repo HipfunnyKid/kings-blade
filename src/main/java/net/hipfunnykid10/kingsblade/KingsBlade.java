@@ -2,7 +2,10 @@ package net.hipfunnykid10.kingsblade;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.hipfunnykid10.kingsblade.block.ModBlocks;
+import net.hipfunnykid10.kingsblade.entity.ModEntities;
+import net.hipfunnykid10.kingsblade.entity.custom.FirstOfTheTundraEntity;
 import net.hipfunnykid10.kingsblade.item.ModItemGroups;
 import net.hipfunnykid10.kingsblade.item.ModItems;
 import org.slf4j.Logger;
@@ -18,5 +21,7 @@ public class KingsBlade implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItems.registerModRecipes();
+		FabricDefaultAttributeRegistry.register(ModEntities.FIRST_OF_THE_TUNDRA, FirstOfTheTundraEntity.createFirstOfTheTundraAttributes());
 	}
+
 }
