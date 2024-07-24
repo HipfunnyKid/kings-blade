@@ -163,7 +163,6 @@ public class FirstOfTheTundraEntity extends AnimalEntity {
                 case EMERGING:
                     this.addDigParticles(this.awakenAnimationState);
                     this.setPose(EntityPose.STANDING);
-                    damage(getRecentDamageSource(),1);
                     break;
             }
        }
