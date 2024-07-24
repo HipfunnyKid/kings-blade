@@ -21,6 +21,7 @@ public class KingsBlade implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItems.registerModRecipes();
+		ModEntities.registerModEntities();
 		FabricDefaultAttributeRegistry.register(ModEntities.FIRST_OF_THE_TUNDRA, FirstOfTheTundraEntity.createFirstOfTheTundraAttributes());
 	}
 
